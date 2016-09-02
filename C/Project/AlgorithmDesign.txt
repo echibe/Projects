@@ -1,0 +1,33 @@
+Elliot Chibe
+CS 430 Project 1
+April 20th, 2015
+
+Pseudocode for algorithm:
+	
+	assignJobs(sorted array of jobs by start time)	
+	for every machine{
+		machine[i].numberOfJobs <- 0
+		lastFinish=0;
+		k=0;
+		for every job{
+			If the job has not already been assigned and its start comes after the previous one finished{
+				machine[i] <- job
+				incriment the number of jobs in that machine
+				set the job as assigned
+				set the running finished time to the last job's finish time
+				incriment the counter for jobs in that machine
+			}	
+		}
+	}
+	return the array of machines with assigned jobs
+	
+Proof of correctness:
+
+Let's assume that we have an array of jobs unsorted and random. The assumptions for the jobs are as follows:
+	a. Each job must have a finish time that comes after the start time
+	b. No job may have an infinite runtime
+Using these as the assumptions, we may prove the algorithm's correctness by testing it on our sample data. First the program sorts the data by start time. Doing so ensures that we maximize the efficiencey of each machine as we search through the jobs. The algorithm then looks at each job and determines if it belongs in the given machine or not. It does this by examining two criteria. 1) Has the job been assigned already to any machine and 2) is the job's start time compatible with the current list of jobs in that machine. Once it determines a match, it assignes that job to the machine and moves on to the next one. 
+
+Analysis of running time:
+To sort the array, the program uses a selection sort based on the start time. Selecting the first start time takes O(n-1) time and so on until it looks like this: (n-1)+(n-2)...+2+1 = n(n-1)/2 which is O(n^2). Therefore, selection sort's run time is O(n^2). 
+The main algorithm for assigning jobs examines each job in the sorted array which takes O(n log n) time. Therefore the entire program is O(n log n)+O(n^2) = O(n^2).

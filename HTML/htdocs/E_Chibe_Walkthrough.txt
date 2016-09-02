@@ -1,0 +1,11 @@
+Elliot Chibe 
+Website Walkthrough
+
+My website opens to my resume information on the homepage. I felt that my name should be front and center as to give the viewer immediate recognition of who the website belongs to. I used a shadow on both the name and the background to separate it in virtual space from the rest of the page. 
+My contact information is displayed next right under my name for easy reference. 
+All headers on this page are formatted in a visually pleasing way. I chose to make them stand out to make it clear that a new section is being presented. The edge radius is something that I had to look up on how to create but I think it really adds a lot of flair. 
+The secondary headers are italicized again to create visual separation from them to the paragraph of information being presented. Under the skills tab I used three different blocks of text to lay out my skills in an orderly fashion. This proved difficult to get the boxes of text to align perfectly but the developer tools in Safari was very helpful in doing so. 
+The navigation bar uses fixed positioning so that the viewer may chose to click over to another page at any time. 
+On the links page I chose to make three simple links to provide the potential employer more information if he/she wants it. The "Resume PDF Download" links to a local file within the website's source files allowing the user a copy. 
+
+With more time I would have made the links page my homepage and presented much more information on it. I would also have changed the background of both pages as to add more visual appeal. A few of the spacing decisions could have been more finely tuned as well. 

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Gotham;
+    src: url(Gotham-Book.otf);
+}
+
+*{
+	font-family: Gotham;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+	margin: 15px;
+}
+
+div#navigation {
+	position: fixed;
+	word-spacing: 100px;
+	background-color:rgba(255, 255, 255, 0.93); 
+	width: 100%;
+	margin-top: -50px;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	box-shadow: 0px -2px 13px black;
+}
+div#navigation2 {
+	position: fixed;
+	word-spacing: 100px;
+	background-color: white;
+	width: 100%;
+	margin-top: -60px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: black solid 2px;
+}
+
+
+.subtitle{
+	margin: 10px;
+	padding-left: 10px;
+	padding: 15px;
+}
+.linksSubtitle{
+	margin: 10px;
+	color: white;
+	padding-left: 10px;
+	padding: 10px;
+	background-color: rgba(196, 196, 198, 0.8);
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 4px #5a5a5a;
+}
+
+ h1 {
+	 font-size: 40pt;
+	   	font-weight: bold;
+	   	text-align: center;
+	   	color: rgb(110, 157, 255);
+	   	padding-left: 10px;
+	   	margin-top: 60px;
+	   	background-size: 10px 40px;
+		padding-top: 20px;
+}
+
+h2{
+	font-size:12pt;
+	text-align:center;
+}
+
+ul#skills1{
+	position: relative;
+	width: 70px;
+}
+
+ul#skills2{
+	position: relative;
+	width: 30%;
+	left: 33%;
+	top: -54px;
+}
+ul#skills3{
+	position: relative;
+	width: 30%;
+	left: 66%;
+	top: -108px;
+}
+
+h3#associations.subtitle{
+	position: relative;
+	margin-top: -90px;
+}
+h3#LinkedIn.linksSubtitle{
+	position: relative;
+	margin-top: 60px;
+}
+h3#Camras.linksSubtitle{
+	position: relative;
+	margin-top: 60px;
+}
+h3#Download.linksSubtitle{
+	position: relative;
+	margin-top: 60px;
+}
+
+h4{
+	font-style: italic;
+	font-size: 10pt;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+h4.first{
+	font-style: italic;
+	font-size: 10pt;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+p#references{
+	font-style: italic;
+}
+
+div.top{
+	margin-top: -10px;
+	box-shadow: -2px -2px 20px black;
+	z-index: 1;
+	padding-bottom: 20px;
+	background: -webkit-linear-gradient(white, rgb(227, 225, 229));
+	background: -o-linear-gradient(white, rgb(227, 225, 229)); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(white, rgb(227, 225, 229)); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(white, rgb(227, 225, 229));
+}
+div.bottom{
+	background: rgb(123, 123, 123);
+	margin-top: -10px;
+	box-shadow: inset -2px -2px 20px black;
+	padding-bottom: 20px;
+	z-index: 0;
+	color: white;
+}
