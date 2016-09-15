@@ -1,6 +1,8 @@
 #Elliot Chibe
 #September 15th, 2016
 
+#Given a YouTube video link this will output the title, description, and user of the video
+#Uses BeautifulSoup and requests for Python
 import requests
 from bs4 import BeautifulSoup
 
